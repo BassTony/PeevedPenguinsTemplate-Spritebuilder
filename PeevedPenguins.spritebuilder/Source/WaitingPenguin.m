@@ -18,7 +18,7 @@
 
 -(void)startBlinkAndJump
 {
-    CCAnimationManager* animationManager = self.animationManager;
-    [animationManager runAnimationsForSequenceNamed:@"BlinkAndJump"];
+//    CCAnimationManager* animationManager = self.animationManager;
+//    [animationManager runAnimationsForSequenceNamed:@"BlinkAndJump"];
 }
 @end
