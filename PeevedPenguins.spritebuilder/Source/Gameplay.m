@@ -27,6 +27,8 @@
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
     
+    _physicsNode.collisionDelegate = self;
+    
     _physicsNode.debugDraw = TRUE;
 }
 
@@ -93,6 +95,11 @@
 //    [penguin.physicsBody applyForce:force];
     
 //    self.position = ccp(0, 0);
+}
+
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    CCLOG(@"HYLJE TÖRMÄSI!");
 }
 
 - (void)retry {
