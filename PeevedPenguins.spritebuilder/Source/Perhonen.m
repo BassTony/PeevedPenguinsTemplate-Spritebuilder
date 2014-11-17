@@ -10,9 +10,9 @@
 
 @implementation Perhonen
 
--(void)didLoadFromCCB
-{
-    TRUE;
-}
+//-(void)didLoadFromCCB
+//{
+//    TRUE;
+//}
 
 @end

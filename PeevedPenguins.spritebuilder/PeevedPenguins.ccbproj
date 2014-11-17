@@ -80,6 +80,13 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
+		<key>Maijun peli</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>isSmartSpriteSheet</key>
+			<true/>
+		</dict>
 		<key>PeevedPenguinsAssets</key>
 		<dict>
 			<key>isSmartSpriteSheet</key>
