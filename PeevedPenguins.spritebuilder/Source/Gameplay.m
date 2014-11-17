@@ -102,7 +102,7 @@
 {
 //    CCLOG(@"HYLJE TÖRMÄSI!");
     float energy = [pair totalKineticEnergy];
-    if (energy < 5000.f) {
+    if (energy > 5000.f) {
         [[_physicsNode space] addPostStepBlock:^{
             [self sealRemoved:nodeA];
         } key:nodeA];
