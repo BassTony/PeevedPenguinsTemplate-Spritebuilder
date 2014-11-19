@@ -374,7 +374,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>58</real>
+						<real>114.51992797851562</real>
 						<false/>
 					</array>
 				</dict>
@@ -2093,7 +2093,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
