@@ -375,7 +375,7 @@
 					<key>value</key>
 					<array>
 						<real>114.51992797851562</real>
-						<false/>
+						<true/>
 					</array>
 				</dict>
 				<dict>
@@ -384,7 +384,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>1</real>
+					<real>60</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -392,7 +392,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>4</real>
+					<real>400</real>
 				</dict>
 			</array>
 		</dict>
@@ -653,8 +653,6 @@
 										<string>Perhonen.ccb</string>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -817,6 +815,8 @@
 										<real>0.5</real>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
