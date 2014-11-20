@@ -24,7 +24,7 @@
     CCAction *_followPenguin;
 }
 
-static const float MIN_SPEED = 5.f;
+static const float MIN_SPEED = 50.f;
 
 - (void)didLoadFromCCB {
     self.userInteractionEnabled = TRUE;
