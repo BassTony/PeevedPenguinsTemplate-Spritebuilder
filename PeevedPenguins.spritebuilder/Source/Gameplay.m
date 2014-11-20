@@ -35,8 +35,14 @@ static const float MIN_SPEED = 50.f;
     
     _physicsNode.collisionDelegate = self;
     
-    
     _physicsNode.debugDraw = TRUE;
+    
+    [self setGravity];
+
+}
+
+-(void)setGravity {
+    _levelNode.physicsNode.gravity = CGPointMake(-1.f, -20.f);
 }
 
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
