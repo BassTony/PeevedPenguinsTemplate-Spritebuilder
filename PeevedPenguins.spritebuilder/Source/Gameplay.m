@@ -36,7 +36,7 @@ static const float MIN_SPEED = 5.f;
     _physicsNode.collisionDelegate = self;
     
     
-//    _physicsNode.debugDraw = TRUE;
+    _physicsNode.debugDraw = TRUE;
 }
 
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {

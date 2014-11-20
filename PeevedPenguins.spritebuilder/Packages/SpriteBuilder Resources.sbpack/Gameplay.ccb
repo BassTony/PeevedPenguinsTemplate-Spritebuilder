@@ -10,11 +10,11 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>33</integer>
+	<integer>34</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>currentSequenceId</key>
 	<integer>0</integer>
 	<key>docDimensionsType</key>
@@ -56,7 +56,7 @@
 					<key>value</key>
 					<array>
 						<real>219.58334350585938</real>
-						<real>113.47222137451172</real>
+						<real>113.44235229492188</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -165,7 +165,7 @@
 					<key>value</key>
 					<array>
 						<real>230.59397888183594</real>
-						<real>258.18402099609375</real>
+						<real>258.15414428710938</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -270,15 +270,15 @@
 		</dict>
 		<dict>
 			<key>UUID</key>
-			<integer>23</integer>
+			<integer>33</integer>
 			<key>baseClass</key>
-			<string>CCPhysicsSpringJoint</string>
+			<string>CCPhysicsPinJoint</string>
 			<key>children</key>
 			<array/>
 			<key>customClass</key>
 			<string></string>
 			<key>displayName</key>
-			<string>CCPhysicsSpringJoint</string>
+			<string>CCPhysicsPinJoint</string>
 			<key>memberVarAssignmentName</key>
 			<string></string>
 			<key>memberVarAssignmentType</key>
@@ -292,8 +292,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>396</real>
-						<real>258</real>
+						<real>396.5</real>
+						<real>258.5</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -330,8 +330,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>30</real>
-						<real>26.5</real>
+						<real>30.5</real>
+						<real>27.25</real>
 					</array>
 				</dict>
 				<dict>
@@ -341,8 +341,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>11.22265625</real>
-						<real>-1.24609375</real>
+						<real>0.0</real>
+						<real>0.0</real>
 					</array>
 				</dict>
 				<dict>
@@ -369,30 +369,25 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>restLength</string>
+					<string>minDistance</string>
 					<key>type</key>
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>114.51992797851562</real>
-						<true/>
+						<real>58</real>
+						<false/>
 					</array>
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>damping</string>
+					<string>maxDistance</string>
 					<key>type</key>
-					<string>Float</string>
+					<string>EnabledFloat</string>
 					<key>value</key>
-					<real>60</real>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>stiffness</string>
-					<key>type</key>
-					<string>Float</string>
-					<key>value</key>
-					<real>400</real>
+					<array>
+						<real>58</real>
+						<false/>
+					</array>
 				</dict>
 			</array>
 		</dict>
@@ -751,8 +746,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>499</real>
-											<real>251</real>
+											<real>459</real>
+											<real>259</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -815,8 +810,6 @@
 										<real>0.5</real>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
@@ -2169,7 +2162,7 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>CCNode</string>
+								<string>Ground</string>
 								<key>memberVarAssignmentName</key>
 								<string></string>
 								<key>memberVarAssignmentType</key>
@@ -2519,6 +2512,8 @@
 								<real>0.5</real>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
