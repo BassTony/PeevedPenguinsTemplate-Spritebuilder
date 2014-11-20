@@ -25,6 +25,7 @@
 }
 
 static const float MIN_SPEED = 50.f;
+static const float GRAVITY = -300.f;
 
 - (void)didLoadFromCCB {
     self.userInteractionEnabled = TRUE;
@@ -42,7 +43,7 @@ static const float MIN_SPEED = 50.f;
 }
 
 -(void)setGravity {
-    _levelNode.physicsNode.gravity = CGPointMake(-1.f, -20.f);
+    _levelNode.physicsNode.gravity = CGPointMake(0.f, GRAVITY);
 }
 
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
