@@ -37,7 +37,7 @@ int turnover = 0;
     CCSprite *kukka;
     kukka = _kukkaContainer.children[0];
     CCLOG(@"Käännetty!");
-    kukka.flipX = (kukka.flipX + 180)%360;
+    kukka.flipX = (kukka.flipX + 180)%180;
     
 //    [self flipKukka];
 
