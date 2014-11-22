@@ -186,6 +186,8 @@ int turnover = 0;
 }
 
 - (void)retry {
+    [self flipKukka];
+
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
 
