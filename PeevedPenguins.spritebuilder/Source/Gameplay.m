@@ -37,7 +37,10 @@ int turnover = 0;
     CCSprite *kukka;
     kukka = _kukkaContainer.children[0];
     CCLOG(@"Käännetty!");
-    kukka.flipX = 180;
+    kukka.flipX = (kukka.flipX + 180)%360;
+    
+//    [self flipKukka];
+
 }
 
 - (void)didLoadFromCCB {
@@ -186,8 +189,6 @@ int turnover = 0;
 }
 
 - (void)retry {
-    [self flipKukka];
-
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
 
