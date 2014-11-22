@@ -1855,7 +1855,7 @@
 								<key>displayName</key>
 								<string>KukkaContainer</string>
 								<key>memberVarAssignmentName</key>
-								<string></string>
+								<string>_kukkaContainer</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>physicsBody</key>

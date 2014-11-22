@@ -24,10 +24,20 @@
     Penguin *_currentPenguin;
     CCPhysicsJoint *_penguinCatapultJoint;
     CCAction *_followPenguin;
+    
+    CCNode *_kukkaContainer;
+
 }
 
 static const float MIN_SPEED = 50.f;
 static const float GRAVITY = -150.f;
+int turnover = 0;
+
+-(void)flipKukka {
+    CCSprite *kukka;
+    kukka = _kukkaContainer.children[0];
+    kukka.flipX = 180;
+}
 
 - (void)didLoadFromCCB {
     self.userInteractionEnabled = TRUE;
@@ -44,6 +54,7 @@ static const float GRAVITY = -150.f;
     _physicsNode.debugDraw = TRUE;
     
     [self setGravity];
+    [self flipKukka];
 
 }
 
