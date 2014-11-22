@@ -26,7 +26,7 @@
 }
 
 static const float MIN_SPEED = 50.f;
-static const float GRAVITY = -300.f;
+static const float GRAVITY = -100.f;
 
 - (void)didLoadFromCCB {
     self.userInteractionEnabled = TRUE;
