@@ -42,10 +42,11 @@ int turnover = 0;
     } else {
         kukka.flipX = 0;
     }
+    
 //    kukka.flipX = (kukka.flipX + 180);
     
 //    [self flipKukka];
-
+    [_kukkaContainer.physicsBody applyForce:cpp(100.f, 200.f)];
 }
 
 - (void)didLoadFromCCB {
