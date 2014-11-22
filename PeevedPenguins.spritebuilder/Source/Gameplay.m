@@ -55,7 +55,7 @@ int turnover = 0;
     _physicsNode.debugDraw = TRUE;
     
     [self setGravity];
-    [self flipKukka];
+//    [self flipKukka];
 
 }
 
