@@ -42,11 +42,7 @@ int turnover = 0;
     } else {
         kukka.flipX = 0;
     }
-    
-//    kukka.flipX = (kukka.flipX + 180);
-    
-//    [self flipKukka];
-    [_perhosContainer.physicsBody applyImpulse:ccp(1000.f, 2000.f)];
+    [_perhosContainer.physicsBody applyImpulse:ccp(0.f, 2000000.f)];
 }
 
 - (void)didLoadFromCCB {
