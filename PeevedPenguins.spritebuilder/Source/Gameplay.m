@@ -41,7 +41,7 @@ static const float GRAVITY = -150.f;
     
     _physicsNode.collisionDelegate = self;
     
-//    _physicsNode.debugDraw = TRUE;
+    _physicsNode.debugDraw = TRUE;
     
     [self setGravity];
 
