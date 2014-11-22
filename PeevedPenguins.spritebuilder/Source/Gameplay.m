@@ -46,7 +46,7 @@ int turnover = 0;
 //    kukka.flipX = (kukka.flipX + 180);
     
 //    [self flipKukka];
-    [_perhosContainer.physicsBody applyImpulse:ccp(100.f, 200.f)];
+    [_perhosContainer.physicsBody applyImpulse:ccp(1000.f, 2000.f)];
 }
 
 - (void)didLoadFromCCB {
