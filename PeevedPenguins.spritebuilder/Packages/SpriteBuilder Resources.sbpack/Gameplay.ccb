@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>230.59397888183594</real>
-						<real>258.15414428710938</real>
+						<real>223.06640625</real>
+						<real>253.39590454101562</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>21.527576446533203</real>
-						<real>154.75822448730469</real>
+						<real>14</real>
+						<real>150</real>
 					</array>
 				</dict>
 				<dict>
@@ -213,8 +213,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>0.47223034501075745</real>
-						<real>2.0833277702331543</real>
+						<real>0.0</real>
+						<real>14</real>
 					</array>
 				</dict>
 				<dict>
@@ -246,7 +246,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>47.527885437011719</real>
+						<real>50</real>
 						<true/>
 					</array>
 				</dict>
@@ -374,7 +374,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>4.880000114440918</real>
+						<real>66.68408203125</real>
 						<true/>
 					</array>
 				</dict>
@@ -395,6 +395,8 @@
 					<real>400</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -638,8 +640,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -653,7 +653,7 @@
 								<key>displayName</key>
 								<string>Perhonen</string>
 								<key>memberVarAssignmentName</key>
-								<string></string>
+								<string>_perhonen</string>
 								<key>memberVarAssignmentType</key>
 								<integer>1</integer>
 								<key>physicsBody</key>
@@ -834,8 +834,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>232.30555725097656</real>
-											<real>297.5</real>
+											<real>233</real>
+											<real>285</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
