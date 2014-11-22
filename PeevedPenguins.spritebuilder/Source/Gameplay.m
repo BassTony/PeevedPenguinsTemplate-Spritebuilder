@@ -36,6 +36,7 @@ int turnover = 0;
 -(void)flipKukka {
     CCSprite *kukka;
     kukka = _kukkaContainer.children[0];
+    NSLog(NSString(kukka));
     kukka.flipX = 180;
 }
 
