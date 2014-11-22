@@ -35,7 +35,7 @@ static const float GRAVITY = -150.f;
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
 
-    _perhosAnkkuri.physicsBody.collisionMask = @[];
+//    _perhosAnkkuri.physicsBody.collisionMask = @[];
     
     _physicsNode.collisionDelegate = self;
     
