@@ -18,6 +18,7 @@
     CCNode *_contentNode;
     CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
+    CCNode *_perhosAnkkuri;
     CCPhysicsJoint *_mouseJoint;
     Penguin *_currentPenguin;
     CCPhysicsJoint *_penguinCatapultJoint;
