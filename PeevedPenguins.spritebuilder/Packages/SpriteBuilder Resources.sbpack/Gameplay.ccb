@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>41</integer>
+	<integer>42</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -292,8 +292,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>315.04473876953125</real>
-						<real>239.88400268554688</real>
+						<real>391.81637573242188</real>
+						<real>296.94400024414062</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -305,7 +305,7 @@
 					<key>type</key>
 					<string>NodeReference</string>
 					<key>value</key>
-					<integer>28</integer>
+					<integer>41</integer>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -330,8 +330,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>34.044734954833984</real>
-						<real>27.633995056152344</real>
+						<real>31.658561706542969</real>
+						<real>25.832176208496094</real>
 					</array>
 				</dict>
 				<dict>
@@ -643,7 +643,329 @@
 							</dict>
 							<dict>
 								<key>UUID</key>
-								<integer>39</integer>
+								<integer>41</integer>
+								<key>animatedProperties</key>
+								<dict>
+									<key>0</key>
+									<dict>
+										<key>spriteFrame</key>
+										<dict>
+											<key>keyframes</key>
+											<array>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.0</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.066666670143604279</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.20000000298023224</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.26666668057441711</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.43333333730697632</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.5</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.80000001192092896</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>0.89999997615814209</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.0333333015441895</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.1333333253860474</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.2333333492279053</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.2999999523162842</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.4666666984558105</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.5333333015441895</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.7000000476837158</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.7999999523162842</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen0.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+												<dict>
+													<key>easing</key>
+													<dict>
+														<key>type</key>
+														<integer>0</integer>
+													</dict>
+													<key>name</key>
+													<string>spriteFrame</string>
+													<key>time</key>
+													<real>1.9666666984558105</real>
+													<key>type</key>
+													<integer>7</integer>
+													<key>value</key>
+													<array>
+														<string>Maijun peli/Perhonen1.png</string>
+														<string>Use regular file</string>
+													</array>
+												</dict>
+											</array>
+											<key>name</key>
+											<string>spriteFrame</string>
+											<key>type</key>
+											<integer>7</integer>
+										</dict>
+									</dict>
+								</dict>
 								<key>baseClass</key>
 								<string>CCSprite</string>
 								<key>children</key>
@@ -661,7 +983,7 @@
 									<key>affectedByGravity</key>
 									<true/>
 									<key>allowsRotation</key>
-									<false/>
+									<true/>
 									<key>bodyShape</key>
 									<integer>0</integer>
 									<key>collisionCategories</key>
@@ -675,7 +997,7 @@
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
-									<true/>
+									<false/>
 									<key>elasticity</key>
 									<real>0.30000001192092896</real>
 									<key>friction</key>
@@ -738,8 +1060,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>460.28836059570312</real>
-											<real>258.55816650390625</real>
+											<real>392.15780639648438</real>
+											<real>300.86181640625</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -770,6 +1092,11 @@
 										</array>
 									</dict>
 									<dict>
+										<key>baseValue</key>
+										<array>
+											<string>Maijun peli/Perhonen0.png</string>
+											<string>Use regular file</string>
+										</array>
 										<key>name</key>
 										<string>spriteFrame</string>
 										<key>type</key>
@@ -811,133 +1138,6 @@
 										<string>EffectControl</string>
 										<key>value</key>
 										<array/>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>UUID</key>
-								<integer>28</integer>
-								<key>baseClass</key>
-								<string>CCBFile</string>
-								<key>children</key>
-								<array/>
-								<key>customClass</key>
-								<string></string>
-								<key>displayName</key>
-								<string>Perhonen</string>
-								<key>memberVarAssignmentName</key>
-								<string>_perhonen</string>
-								<key>memberVarAssignmentType</key>
-								<integer>1</integer>
-								<key>physicsBody</key>
-								<dict>
-									<key>affectedByGravity</key>
-									<true/>
-									<key>allowsRotation</key>
-									<true/>
-									<key>bodyShape</key>
-									<integer>0</integer>
-									<key>collisionCategories</key>
-									<array/>
-									<key>collisionMask</key>
-									<array/>
-									<key>collisionType</key>
-									<string></string>
-									<key>cornerRadius</key>
-									<real>0.0</real>
-									<key>density</key>
-									<real>1</real>
-									<key>dynamic</key>
-									<true/>
-									<key>elasticity</key>
-									<real>0.30000001192092896</real>
-									<key>friction</key>
-									<real>0.30000001192092896</real>
-									<key>points</key>
-									<array>
-										<array>
-											<real>0.0</real>
-											<real>0.0</real>
-										</array>
-										<array>
-											<real>0.0</real>
-											<real>59</real>
-										</array>
-										<array>
-											<real>64</real>
-											<real>59</real>
-										</array>
-										<array>
-											<real>64</real>
-											<real>0.0</real>
-										</array>
-									</array>
-									<key>polygons</key>
-									<array>
-										<array>
-											<array>
-												<real>64</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>64</real>
-												<real>59</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>59</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>0.0</real>
-											</array>
-										</array>
-									</array>
-								</dict>
-								<key>properties</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>name</string>
-										<key>type</key>
-										<string>StringSimple</string>
-										<key>value</key>
-										<string></string>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>position</string>
-										<key>type</key>
-										<string>Position</string>
-										<key>value</key>
-										<array>
-											<real>313</real>
-											<real>242</real>
-											<integer>0</integer>
-											<integer>0</integer>
-											<integer>0</integer>
-										</array>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>scale</string>
-										<key>type</key>
-										<string>ScaleLock</string>
-										<key>value</key>
-										<array>
-											<real>1</real>
-											<real>1</real>
-											<false/>
-											<integer>0</integer>
-										</array>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>ccbFile</string>
-										<key>type</key>
-										<string>CCBFile</string>
-										<key>value</key>
-										<string>Perhonen.ccb</string>
 									</dict>
 								</array>
 							</dict>
