@@ -292,8 +292,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>488.07269287109375</real>
-						<real>234.80613708496094</real>
+						<real>490.55770874023438</real>
+						<real>257.643310546875</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -330,8 +330,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>30.772705078125</real>
-						<real>28.856145858764648</real>
+						<real>33.257732391357422</real>
+						<real>51.693305969238281</real>
 					</array>
 				</dict>
 				<dict>
@@ -395,8 +395,6 @@
 					<real>1400</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -571,8 +569,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>0.0</real>
-											<real>0.0</real>
+											<real>41.184421539306641</real>
+											<real>0.29382887482643127</real>
 										</array>
 									</array>
 									<key>polygons</key>
@@ -1079,7 +1077,7 @@
 									<key>affectedByGravity</key>
 									<true/>
 									<key>allowsRotation</key>
-									<false/>
+									<true/>
 									<key>bodyShape</key>
 									<integer>0</integer>
 									<key>collisionCategories</key>
@@ -1091,11 +1089,11 @@
 									<key>cornerRadius</key>
 									<real>0.0</real>
 									<key>density</key>
-									<real>1</real>
+									<real>11</real>
 									<key>dynamic</key>
 									<true/>
 									<key>elasticity</key>
-									<real>0.30000001192092896</real>
+									<real>0.89999997615814209</real>
 									<key>friction</key>
 									<real>0.30000001192092896</real>
 									<key>points</key>
@@ -1201,6 +1199,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -3381,7 +3381,7 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>length</key>
 			<real>2.3333332538604736</real>
 			<key>name</key>
