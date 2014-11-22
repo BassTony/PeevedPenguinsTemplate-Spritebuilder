@@ -10,7 +10,7 @@
 
 @implementation MainScene
 
--(void)didLoadFromCBB {
+-(void)didLoadFromCCB {
     CCScene *gameplayScene = [CCBReader loadAsScene:@"Gameplay"];
     [[CCDirector sharedDirector] replaceScene:gameplayScene];
     
