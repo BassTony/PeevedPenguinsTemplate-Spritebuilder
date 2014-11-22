@@ -374,8 +374,8 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>86.450492858886719</real>
-						<false/>
+						<real>44.878429412841797</real>
+						<true/>
 					</array>
 				</dict>
 				<dict>
@@ -384,7 +384,7 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>1</real>
+					<real>50</real>
 				</dict>
 				<dict>
 					<key>name</key>
@@ -392,9 +392,11 @@
 					<key>type</key>
 					<string>Float</string>
 					<key>value</key>
-					<real>4</real>
+					<real>400</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -669,8 +671,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
