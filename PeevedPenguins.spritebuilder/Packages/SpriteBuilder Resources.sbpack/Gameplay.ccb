@@ -1420,6 +1420,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
@@ -1848,8 +1850,6 @@
 												<string>Kukka.ccb</string>
 											</dict>
 										</array>
-										<key>selected</key>
-										<true/>
 									</dict>
 								</array>
 								<key>customClass</key>
@@ -2030,8 +2030,8 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1</real>
-											<real>1</real>
+											<real>0.25</real>
+											<real>0.25</real>
 											<false/>
 											<integer>0</integer>
 										</array>
