@@ -375,7 +375,7 @@
 					<key>value</key>
 					<array>
 						<real>63.568138122558594</real>
-						<false/>
+						<true/>
 					</array>
 				</dict>
 				<dict>
@@ -395,6 +395,8 @@
 					<real>4</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -638,8 +640,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
