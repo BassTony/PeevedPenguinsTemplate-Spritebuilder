@@ -19,6 +19,7 @@
     CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
     CCNode *_perhosAnkkuri;
+    CCNode *_perhosContainer;
     CCPhysicsJoint *_mouseJoint;
     Penguin *_currentPenguin;
     CCPhysicsJoint *_penguinCatapultJoint;
@@ -35,7 +36,8 @@ static const float GRAVITY = -150.f;
     _pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
 
-//    _perhosAnkkuri.physicsBody.collisionMask = @[];
+    _perhosAnkkuri.physicsBody.collisionMask = @[];
+    _perhosContainer.physicsBody.collisionMask = @[];
     
     _physicsNode.collisionDelegate = self;
     
