@@ -1822,8 +1822,8 @@
 													<real>0.0</real>
 													<real>0.0</real>
 													<integer>0</integer>
-													<integer>0</integer>
-													<integer>0</integer>
+													<integer>2</integer>
+													<integer>2</integer>
 												</array>
 											</dict>
 											<dict>
@@ -1848,6 +1848,8 @@
 												<string>Kukka.ccb</string>
 											</dict>
 										</array>
+										<key>selected</key>
+										<true/>
 									</dict>
 								</array>
 								<key>customClass</key>
@@ -1865,7 +1867,7 @@
 									<key>allowsRotation</key>
 									<true/>
 									<key>bodyShape</key>
-									<integer>1</integer>
+									<integer>0</integer>
 									<key>collisionCategories</key>
 									<array/>
 									<key>collisionMask</key>
@@ -1873,7 +1875,7 @@
 									<key>collisionType</key>
 									<string></string>
 									<key>cornerRadius</key>
-									<real>128</real>
+									<real>0.0</real>
 									<key>density</key>
 									<real>1</real>
 									<key>dynamic</key>
@@ -1885,12 +1887,93 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>90.5</real>
-											<real>128</real>
+											<real>42.640464782714844</real>
+											<real>7.2303004264831543</real>
+										</array>
+										<array>
+											<real>13.130709648132324</real>
+											<real>61.046749114990234</real>
+										</array>
+										<array>
+											<real>30.177230834960938</real>
+											<real>92.41204833984375</real>
+										</array>
+										<array>
+											<real>43.318634033203125</real>
+											<real>221.61259460449219</real>
+										</array>
+										<array>
+											<real>102.23452758789062</real>
+											<real>241.18341064453125</real>
+										</array>
+										<array>
+											<real>156.57278442382812</real>
+											<real>205.95631408691406</real>
+										</array>
+										<array>
+											<real>156.98345947265625</real>
+											<real>121.67314147949219</real>
+										</array>
+										<array>
+											<real>121.40221405029297</real>
+											<real>102.33214569091797</real>
+										</array>
+										<array>
+											<real>140.84681701660156</real>
+											<real>5.679931640625</real>
 										</array>
 									</array>
 									<key>polygons</key>
-									<array/>
+									<array>
+										<array>
+											<array>
+												<real>30.177230834960938</real>
+												<real>92.41204833984375</real>
+											</array>
+											<array>
+												<real>13.130709648132324</real>
+												<real>61.046749114990234</real>
+											</array>
+											<array>
+												<real>42.640464782714844</real>
+												<real>7.2303004264831543</real>
+											</array>
+											<array>
+												<real>140.84681701660156</real>
+												<real>5.679931640625</real>
+											</array>
+											<array>
+												<real>121.40221405029297</real>
+												<real>102.33214569091797</real>
+											</array>
+										</array>
+										<array>
+											<array>
+												<real>121.40221405029297</real>
+												<real>102.33214569091797</real>
+											</array>
+											<array>
+												<real>156.98345947265625</real>
+												<real>121.67314147949219</real>
+											</array>
+											<array>
+												<real>156.57278442382812</real>
+												<real>205.95631408691406</real>
+											</array>
+											<array>
+												<real>102.23452758789062</real>
+												<real>241.18341064453125</real>
+											</array>
+											<array>
+												<real>43.318634033203125</real>
+												<real>221.61259460449219</real>
+											</array>
+											<array>
+												<real>30.177230834960938</real>
+												<real>92.41204833984375</real>
+											</array>
+										</array>
+									</array>
 								</dict>
 								<key>properties</key>
 								<array>
@@ -1954,8 +2037,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>

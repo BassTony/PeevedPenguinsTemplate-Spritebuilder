@@ -167,7 +167,7 @@
 				<key>value</key>
 				<array>
 					<real>0.5</real>
-					<real>0.5</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>
@@ -232,7 +232,7 @@
 				<array/>
 			</dict>
 		</array>
-		<key>seqExpanded</key>
+		<key>selected</key>
 		<true/>
 	</dict>
 	<key>notes</key>
@@ -289,7 +289,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.3333333432674408</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
