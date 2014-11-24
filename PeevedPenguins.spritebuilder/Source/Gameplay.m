@@ -44,7 +44,7 @@ int turnover = 0;
         kukka.flipX = 0;
     }
     [_kukkaContainer.physicsBody applyImpulse:ccp(0.f, 2000.f)];
-    [_kukkaContainer.physicsBody applyAngularImpulse:3000.f];
+    [_kukkaContainer.physicsBody applyAngularImpulse:30000.f];
 }
 
 - (void)didLoadFromCCB {
