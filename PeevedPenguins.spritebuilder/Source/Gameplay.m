@@ -36,7 +36,7 @@ int turnover = 0;
 -(void)flipKukka {
     CCSprite *kukka;
     kukka = _kukkaContainer.children[0];
-    _kukkaContainer.physicsNode.scaleX = -1;
+    _kukkaContainer.physicsBody.scaleX = -1;
     CCLOG(@"Käännetty! %d", kukka.flipX);
     if (kukka.flipX == 0) {
         kukka.flipX = 180;
