@@ -35,14 +35,16 @@ int turnover = 0;
 
 -(void)flipKukka {
     CCSprite *kukka;
-    kukka = _kukkaContainer.children[0];
-    CCLOG(@"Käännetty! %d", kukka.scaleX);
-    if (kukka.scaleX == 1) {
-        kukka.scaleX = -1;
+//    kukka = _kukkaContainer.children[0];
+    kukka = _kukkaContainer;
+    CCLOG(@"Käännetty! %d", kukka.flipX);
+    if (kukka.flipX == 0) {
+        kukka.flipX = 180;
     } else {
-        kukka.scaleX = 1;
+        kukka.flipX = 0;
     }
-    [_kukkaContainer.physicsBody applyImpulse:ccp(0.f, 20000.f)];
+    [_kukkaContainer.physicsBody applyImpulse:ccp(0.f, 2000.f)];
+    [_kukkaContainer.physicsBody applyAngularImpulse:30.f];
 }
 
 - (void)didLoadFromCCB {
