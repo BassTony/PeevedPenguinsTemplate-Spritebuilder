@@ -36,11 +36,11 @@ int turnover = 0;
 -(void)flipKukka {
     CCSprite *kukka;
     kukka = _kukkaContainer.children[0];
-    CCLOG(@"Käännetty! %d", kukka.flipX);
-    if (kukka.flipX == 0) {
-        kukka.flipX = 180;
+    CCLOG(@"Käännetty! %d", kukka.scaleX);
+    if (kukka.scaleX == 1) {
+        kukka.scaleX = -1;
     } else {
-        kukka.flipX = 0;
+        kukka.scaleX = 1;
     }
     [_kukkaContainer.physicsBody applyImpulse:ccp(0.f, 20000.f)];
 }
